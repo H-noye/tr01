@@ -1,0 +1,32 @@
+.default {
+    padding: 120px 0;
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flx {
+    display: flex;
+    gap: 30px;
+}
+
+.flx>* {
+    flex: 1;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.itm p {
+    text-align: center;
+    margin-top: 16px;
+}

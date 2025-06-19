@@ -1,0 +1,69 @@
+#header {}
+
+#header .hd_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+#header .hd_wrap .left {
+    display: flex;
+}
+
+#header .hd_wrap .gnb ul {
+    display: flex;
+    gap: 40px;
+}
+
+#header .hd_wrap .gnb ul li a {
+    display: block;
+    line-height: 120px;
+    font-size: 18px;
+}
+
+#header .hd_wrap .utils {
+    margin-left: 80px;
+}
+
+#header .hd_wrap .utils ul {
+    display: flex;
+    gap: 30px;
+}
+
+#header .hd_wrap .utils ul li a {
+    display: block;
+    line-height: 120px;
+}
+
+.main_visual {
+    position: relative;
+    height: calc(100vh - 120px);
+    background: url(../images/메인페이지.jpg) no-repeat center center/cover;
+}
+
+.main_visual .slg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main_visual .slg h2 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.main_visual .slg p {
+    margin-top: 16px;
+    color: #fff;
+}
+
+.main_event {
+    background: #f2f2f2;
+}
+
+#footer {
+    padding: 80px;
+}
