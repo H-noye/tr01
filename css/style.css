@@ -3,17 +3,16 @@
 #header .hd_wrap {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: 120px;
-}
-
-#header .hd_wrap .left {
-    display: flex;
 }
 
 #header .hd_wrap .gnb ul {
     display: flex;
     gap: 40px;
+}
+
+#header .hd_wrap h1 {
+    margin-right: auto;
 }
 
 #header .hd_wrap .gnb ul li a {
@@ -26,12 +25,12 @@
     margin-left: 80px;
 }
 
-#header .hd_wrap .utils ul {
+#header .hd_wrap .utils {
     display: flex;
-    gap: 30px;
+    gap: 16px;
 }
 
-#header .hd_wrap .utils ul li a {
+#header .hd_wrap .utils a {
     display: block;
     line-height: 120px;
 }
