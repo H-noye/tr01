@@ -29,4 +29,5 @@
 .itm p {
     text-align: center;
     margin-top: 16px;
+    line-height: inherit;
 }
